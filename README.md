@@ -15,7 +15,7 @@ git clone https://github.com/vo-ip9/HP-Auto
 
 4. Copy the path of `..\Tesseract-OCR\tesseract.exe` and paste into main.py, line 23
 
-5. Install the requirements and start script
+5. Install the requirements and run the script (main.py)
 ```
 pip install -r requirements.txt
 python main.py
