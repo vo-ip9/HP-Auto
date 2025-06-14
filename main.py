@@ -1,7 +1,6 @@
 """
 made by vo-ip9
 discord: @vondeehair
-tutorial video can be found on yt @Vondee Hair
 DM me any bugs or suggestions
 """
 
