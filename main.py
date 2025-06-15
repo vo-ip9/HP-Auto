@@ -71,7 +71,6 @@ def extract_individual_squares(img, corners, grid_size=5):
             # get square image
             square_img = img[y1:y2, x1:x2]
             if square_img.size > 0:
-                #square_img = cv2.resize(square_img, (100, 100))
                 squares.append((square_img, i, j))
 
     return squares
