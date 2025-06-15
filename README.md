@@ -6,7 +6,7 @@ Note: This script will only work on machines running Windows, as it uses the win
 
 1. Download TesseractOCR from the [main repository](https://github.com/tesseract-ocr/tesseract)
 
-2. Clone this repository
+2. Clone this repository or download the latest release .zip (version 1.0)
 ```
 git clone https://github.com/vo-ip9/HP-Auto
 ```
