@@ -256,7 +256,7 @@ def puzzle_two():
 
     for img, row, col in squares:
         resized = cv2.resize(img, (100,100))
-        text = pytesseract.image_to_string(resized, lang="fivehundredsymbols", config=custom_config)
+        text = pytesseract.image_to_string(resized, lang="hp_symbols", config=custom_config)
 
         if not text:
             handle_ocr_failure("2", puzzle_three)
