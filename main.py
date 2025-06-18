@@ -336,9 +336,8 @@ def puzzle_four():
             scale = 3
             h, w = img.shape
             resized = cv2.resize(img, (w*scale, h*scale))
-            result = reader.readtext(resized, allowlist="1234567890\n\t\r ", paragraph=False,
-                                     detail=1, text_threshold=0.4, low_text=0.2, link_threshold=0.3,
-                                     width_ths=0.5, height_ths=0.5, decoder="greedy", beamWidth=3, batch_size=1)
+            result = reader.readtext(resized, allowlist="1234567890\n\t\r ",text_threshold=0.3, low_text=0.2, 
+                                    link_threshold=0.2, min_size=3)
 
             all_text = []
             total_confidence = 0.0
