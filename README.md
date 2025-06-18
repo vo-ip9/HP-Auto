@@ -20,3 +20,5 @@ git clone https://github.com/vo-ip9/HP-Auto
 pip install -r requirements.txt
 python main.py
 ```
+
+[video guide](https://youtu.be/1IHEyDaRdho)
